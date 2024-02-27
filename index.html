@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>OMDB CLONE BY KRISH</title>
+
+    <!--CSS -->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <!-- for animation -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
+    <!--Font Awesome Icons-->
+    <script src="https://kit.fontawesome.com/4c66e4d00a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!--Header Bar-->
+    <div class="header">   
+        <div class="header-container">
+            <div>
+                <h2 class="animate__animated animate__zoomInDown">Explore Movies & TV Shows</h2>
+            </div>
+            <div class="header-link">
+                <span><a href="favorite.html">Favourite&nbsp;<i class="fa-solid fa-bookmark"></i></a></span>
+            </div>
+        </div>
+        <div class="search-box">
+            <input type="text" placeholder="Search for movie..." class="search-bar" id="Input">
+            <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+    </div>
+    <!--Main Container For Movies-->
+    <div class="main">
+        <div class="fav-container">
+            <!-- Items are displayed here -->
+        </div>
+        <!--Watermark Area / Start Exploring Section-->
+        <div class="start-exploring">
+            <i class="fa-solid fa-film fa-6x"></i><br>
+            <span>Start Exploring Now!</span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
